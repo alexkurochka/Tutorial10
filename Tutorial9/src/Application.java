@@ -4,9 +4,11 @@ public class Application {
 	public static void main(String[] args) {
 		
 		Scanner scanner = new Scanner(System.in);
-		String text = scanner.nextLine();
 		
 		System.out.println("Please, enter the command: ");
+		
+		String text = scanner.nextLine();
+		
 		
 		switch(text) {
 		case "start":

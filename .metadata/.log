@@ -1,0 +1,121 @@
+!SESSION 2015-12-17 02:51:29.950 -----------------------------------------------
+eclipse.buildId=4.5.0.I20150603-2000
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/alexkurochka/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/alexkurochka/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-17 03:00:13.131
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-17 03:33:30.092
+!MESSAGE Invalid site reference %updateSiteURL in feature com.pramati.eclipse.feature.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-17 03:33:30.978
+!MESSAGE Invalid site reference %updateSiteURL in feature com.pramati.eclipse.feature.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-17 03:33:30.985
+!MESSAGE Invalid site reference %updateSiteURL in feature com.pramati.eclipse.feature.
+!SESSION 2015-12-17 03:44:19.117 -----------------------------------------------
+eclipse.buildId=4.5.0.I20150603-2000
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -keyring /Users/alexkurochka/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -data file:/Users/alexkurochka/Dropbox/com.alexkurochka/ -product org.eclipse.epp.package.jee.product -keyring /Users/alexkurochka/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-17 03:45:01.501
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2015-12-17 03:45:17.623
+!MESSAGE cacheFile=file:/Users/alexkurochka/Desktop/Eclipse.app/Contents/MacOS/file:/Users/alexkurochka/Desktop/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.wst.server.discovery/serverAdapterSitesDetails.xml
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2015-12-17 03:46:45.536
+!MESSAGE GlassFish: error creating java DB database
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.internal.runtime.Activator.getURLConverter(Activator.java:324)
+	at org.eclipse.core.runtime.FileLocator.toFileURL(FileLocator.java:206)
+	at oracle.eclipse.tools.glassfish.derby.DerbyConfigurator.configureSample(DerbyConfigurator.java:178)
+	at oracle.eclipse.tools.glassfish.derby.DerbyConfigurator.configure(DerbyConfigurator.java:80)
+	at oracle.eclipse.tools.glassfish.GlassfishServerBehaviourDelegate.initialize(GlassfishServerBehaviourDelegate.java:125)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.initialize(ServerBehaviourDelegate.java:101)
+	at org.eclipse.wst.server.core.model.InternalInitializer.initializeServerBehaviourDelegate(InternalInitializer.java:41)
+	at org.eclipse.wst.server.core.internal.Server.getBehaviourDelegate(Server.java:531)
+	at org.eclipse.wst.server.core.internal.Server.loadAdapter(Server.java:1616)
+	at org.eclipse.wst.server.core.internal.UpdateServerJob.run(UpdateServerJob.java:40)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY oracle.eclipse.tools.glassfish 4 150 2015-12-17 03:47:20.280
+!MESSAGE Unable to start server due following issues:
+!STACK 0
+oracle.eclipse.tools.glassfish.exceptions.GlassfishLaunchException: Wrong user name or password. Killing startup process.
+	at oracle.eclipse.tools.glassfish.GlassfishServerBehaviourDelegate$StartJob.call(GlassfishServerBehaviourDelegate.java:838)
+	at oracle.eclipse.tools.glassfish.GlassfishServerBehaviourDelegate$StartJob.call(GlassfishServerBehaviourDelegate.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+!SESSION 2015-12-20 09:07:08.507 -----------------------------------------------
+eclipse.buildId=4.5.0.I20150603-2000
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/alexkurochka/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/alexkurochka/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-20 09:09:09.344
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2015-12-20 09:10:58.941
+!MESSAGE GlassFish: error creating java DB database
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.internal.runtime.Activator.getURLConverter(Activator.java:324)
+	at org.eclipse.core.runtime.FileLocator.toFileURL(FileLocator.java:206)
+	at oracle.eclipse.tools.glassfish.derby.DerbyConfigurator.configureSample(DerbyConfigurator.java:178)
+	at oracle.eclipse.tools.glassfish.derby.DerbyConfigurator.configure(DerbyConfigurator.java:80)
+	at oracle.eclipse.tools.glassfish.GlassfishServerBehaviourDelegate.initialize(GlassfishServerBehaviourDelegate.java:125)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.initialize(ServerBehaviourDelegate.java:101)
+	at org.eclipse.wst.server.core.model.InternalInitializer.initializeServerBehaviourDelegate(InternalInitializer.java:41)
+	at org.eclipse.wst.server.core.internal.Server.getBehaviourDelegate(Server.java:531)
+	at org.eclipse.wst.server.core.internal.Server.loadAdapter(Server.java:1616)
+	at org.eclipse.wst.server.core.internal.UpdateServerJob.run(UpdateServerJob.java:40)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2016-08-15 22:16:33.686 -----------------------------------------------
+eclipse.buildId=4.5.0.I20150603-2000
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/alexkurochka/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/alexkurochka/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2016-08-15 22:17:18.136
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY oracle.eclipse.tools.glassfish 4 1 2016-08-15 22:17:31.664
+!MESSAGE GlassFish: error creating java DB database
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.internal.runtime.Activator.getURLConverter(Activator.java:324)
+	at org.eclipse.core.runtime.FileLocator.toFileURL(FileLocator.java:206)
+	at oracle.eclipse.tools.glassfish.derby.DerbyConfigurator.configureSample(DerbyConfigurator.java:178)
+	at oracle.eclipse.tools.glassfish.derby.DerbyConfigurator.configure(DerbyConfigurator.java:80)
+	at oracle.eclipse.tools.glassfish.GlassfishServerBehaviourDelegate.initialize(GlassfishServerBehaviourDelegate.java:125)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.initialize(ServerBehaviourDelegate.java:101)
+	at org.eclipse.wst.server.core.model.InternalInitializer.initializeServerBehaviourDelegate(InternalInitializer.java:41)
+	at org.eclipse.wst.server.core.internal.Server.getBehaviourDelegate(Server.java:531)
+	at org.eclipse.wst.server.core.internal.Server.loadAdapter(Server.java:1616)
+	at org.eclipse.wst.server.core.internal.UpdateServerJob.run(UpdateServerJob.java:40)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2016-08-16 22:18:42.438 -----------------------------------------------
+eclipse.buildId=4.5.0.I20150603-2000
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/alexkurochka/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/alexkurochka/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2016-08-16 22:19:50.598
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences

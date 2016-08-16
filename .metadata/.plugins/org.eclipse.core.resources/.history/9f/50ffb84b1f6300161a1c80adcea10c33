@@ -1,0 +1,13 @@
+
+public class Application {
+
+	public static void main(String[] args) {
+		int myInteger = 90;
+		short myShort = 990;
+		
+		
+		System.out.println(myInteger);
+		System.out.println(myShort);
+	}
+
+}

@@ -1,0 +1,18 @@
+class Person {
+	int age;
+	String name;
+	
+	void speak(){
+		System.out.println("My name is " + name);
+	}
+	
+	int yearToRetrived(){
+		
+	}
+}
+
+public class App {
+	public static void main(String[] args) {
+
+	}
+}

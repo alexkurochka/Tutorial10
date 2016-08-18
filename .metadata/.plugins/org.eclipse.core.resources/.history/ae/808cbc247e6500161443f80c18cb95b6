@@ -1,0 +1,14 @@
+class Person {
+	int age;
+	String name;
+	
+	void speak(){
+		
+	}
+}
+
+public class App {
+	public static void main(String[] args) {
+
+	}
+}

@@ -1,0 +1,18 @@
+class Robot {
+
+	public void speak(String text){
+		System.out.println(text);
+	}
+	
+	public void jump(int heigth){
+		System.out.println(heigth);
+	}
+	
+	
+}
+
+public class App {
+	public static void main(String[] args) {
+
+	}
+}

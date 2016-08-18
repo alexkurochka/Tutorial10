@@ -1,0 +1,20 @@
+class Person {
+	int age;
+	String name;
+	
+	void speak(){
+		System.out.println("My name is " + name);
+	}
+	
+	int yearToRetrived(){
+		int years = 65 - age;
+		return years;
+	}
+}
+
+public class App {
+	public static void main(String[] args) {
+
+		Person person1 = new Person();
+	}
+}

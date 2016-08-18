@@ -1,0 +1,10 @@
+class Person {
+	int age;
+	String name;
+}
+
+public class App {
+	public static void main(String[] args) {
+
+	}
+}

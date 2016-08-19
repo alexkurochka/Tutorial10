@@ -1,0 +1,13 @@
+class Frog {
+
+	private String name;
+	private int id;
+	
+	
+}
+
+public class App {
+	public static void main(String[] args) {
+
+	}
+}

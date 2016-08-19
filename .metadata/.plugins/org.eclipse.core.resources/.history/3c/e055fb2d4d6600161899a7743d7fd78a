@@ -1,0 +1,17 @@
+
+public class App {
+	public static void main(String[] args) {
+
+		String list = "";
+		list += "My name is";
+		list += " ";
+		list += "Alex";
+		
+		System.out.println(list);
+		
+		StringBuilder sb = new StringBuilder();
+		sb.append("Her name is");
+		sb.append(" ");
+		sb.append("")
+	}
+}
